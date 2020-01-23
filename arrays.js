@@ -33,3 +33,8 @@ function removeElementFromBeginningOfArray(array){
   var candyCandy = array.slice(1)
   return candyCandy
 }
+
+function destructivelyRemoveElementFromEndOfArray(array){
+  array.pop()
+  return array
+}
