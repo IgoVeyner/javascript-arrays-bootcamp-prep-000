@@ -11,5 +11,10 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 }
 
 function addElementToEndOfArray(array, element){
+  var yumCandy = [...array, element]
+  return yumCandy
+}
+
+function destructivelyAddElementToEndOfArray(array, element){
   
 }
